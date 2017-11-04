@@ -4,7 +4,7 @@ function theBeatlesPlay (musicians, instruments){
 
   for (var i = 0; i < 4; i++){
 
-    beatlesArray.push (`${musicians} plays ${instruments}`)
+    beatlesArray.push (`${musicians[i]} plays ${instruments[i]}`)
   }
       return beatlesArray
 }
